@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-md-9" style="border: 5px;">
+        <p *ngIf="book.renter">renter: {{ book.renter.firstName }} {{ book.renter.lastName }} <span *ngIf="late">*</span></p>
+        <p>book: {{ book.title }}</p>
+
+        <hr>
+    </div>
+</div>
